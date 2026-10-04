@@ -1,0 +1,44 @@
+# Build directories and outputs
+build/
+build-*/
+bin/
+lib/
+out/
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.spv
+
+# CMake & Ninja artifacts
+CMakeUserPresets.json
+.cmake/
+_deps/
+.ninja_log
+.ninja_deps
+compile_commands.json
+
+# CTest artifacts
+Testing/
+
+# IDE and editors
+.vscode/
+*.code-workspace
+.idea/
+.history/
+
+# Cache, logs, temps
+.cache/
+*.log
+*.tmp
+*.bak
+
+# OS generated
+[Dd]s.[Ss]tore
+Thumbs.db
+*.db
+repomix-output.xml
